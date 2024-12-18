@@ -1,0 +1,45 @@
+body{
+    background-color: black;
+    color: whitesmoke;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+.dom-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 1300px;
+    margin: auto;
+}
+.Hover_effect{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 300px;
+    height: 310px;
+    overflow: hidden;
+    transition: 0.7s ease;
+}
+.Hover_effect img{
+    width: 220px;
+    transition:0.7s ease;
+    transform: translateZ(0);
+}
+.Hover_effect:hover img{
+    transform: scale(1.1) translateZ(50px );
+}
+
+.img{
+   width: 200px;
+   height: 250px;
+   border-radius: 10px;
+   border: 1px solid yellow ; 
+}
+
+button{
+    font-weight: bold !important;
+}
